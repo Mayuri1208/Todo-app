@@ -1,0 +1,36 @@
+.modal {
+	width: 50%;
+}
+
+.modal-title{
+	font-weight: bold;
+	font-size: 28px;
+}
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-close {
+	float: right;
+}
+
+.modal-close button {
+	margin-top: -20px;
+	padding: 6px 6px 6px 6px;
+	border-radius: 10px;
+	width: 25px;
+	background-color: red;
+
+}

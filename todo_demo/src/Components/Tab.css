@@ -1,0 +1,49 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.tab {
+	float: left;
+	background-color: white;
+	margin-right: 15px;
+	display:flex;
+ 	justify-content: space-evenly;
+  font-weight: bold;
+  position: relative;
+  border: none;
+
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s; 
+  font-size: 20px;
+  color: rgb(5, 5, 5);
+  width: '150%';
+}
+
+.tab button:hover {
+  background-color: #faf4f4;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  border: 1px solid rgb(250, 247, 247);
+  border-top: none;
+  padding: 100px 20px;
+  height: 100%;
+  width:100%; 
+}
+
+#title {
+	margin-bottom: 1%;
+	font-family: arial, sans-serif;
+}

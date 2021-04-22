@@ -1,0 +1,147 @@
+
+.form {
+	font-size: 16px;
+	background: #F6F8FA;
+}
+
+.form input[type=submit],
+.form input[type=reset],
+.form input[type=button],
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.form label {
+	display: flex;
+	color: #000;
+	margin-bottom: 5%;
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	margin-bottom: 0;
+	font-size: inherit;
+	line-height: 1.5;
+}
+
+.form label>span {
+	float: left;
+	margin-right: 3%;
+	width: 20%;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form input[type=date] {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form textarea {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 20px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button,
+.form input[type=submit],
+.form input[type=reset],
+.form input[type=button] {
+	border: none;
+	padding: 13px 15px 13px 15px;
+	height: 50px;
+	border-radius: 1px;
+  font-size: 1rem;
+	font-weight: 4600;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.addNew{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  font-size:36px;
+  color:brown;
+  position: absolute;
+  bottom: 0px;
+  right: center; 
+  font-weight:bolder;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  border: 2px solid black;
+}
+
+.edit{
+	background-color: darkseagreen;
+	border-radius: 5px;
+
+}
+.delete{
+	background-color: darkred;
+	border-radius: 5px;
+
+}
+#cancel{
+	background-color: red;
+	border-radius: 10px;
+	height: 10px;
+
+}
+#cancel1{
+	background-color: rgb(99, 96, 96);
+	border-radius: 5px;
+	height: 55px;
+
+}
+#save{
+	background-color: green;
+	border-radius: 5px;
+	width:70px;
+} 

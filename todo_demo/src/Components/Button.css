@@ -1,0 +1,8 @@
+.add-btn{
+    display: flex;
+    position: fixed;
+    right: 4rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
